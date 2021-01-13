@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+  display: flow-root;
+}
+a {
+  text-decoration: none;
+}
+.nav {
+  width: 100%;
+  float: left;
+  padding: 80px 0px;
+}
+.logo {
+  width: 25%;
+  float: left;
+}
+.manu {
+  width: 75%;
+  float: right;
+  text-align: right;
+}
+.manu ul li {
+  display: inline-block;
+}
+.manu ul li a {
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  padding: 45px;
+}
+.manu ul li a:hover {
+  color: black;
+  /* font-weight:500; */
+}
+.detail {
+  padding: 75px;
+}
+.detail h4 {
+  padding: 20px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #77746d;
+}
+.detail span {
+  padding: 30px 15px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  display: block;
+  padding: 60px 15px;
+  color: #bdb7aa;
+}
+.detail p {
+  font-family: "Playfair Display", serif;
+  /* text-transform: capitalize; */
+  font-weight: 400;
+  padding: 15px;
+  color: #626262;
+  word-spacing: 5px;
+  line-height: 1.5;
+  /* letter-spacing: 1px; */
+}
+.detail h1 {
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: 15px;
+  color: #626262;
+}
+/* post1 start  */
+.p1 {
+  width: 100%;
+  float: left;
+  padding: 75px;
+}
+.left {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+.right {
+  width: 50%;
+  float: right;
+  padding: 20px;
+}
+.left h4 {
+  /* padding: 50px 0px; */
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #77746d;
+}
+.left h1 {
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: 15px 0px;
+  color: #626262;
+}
+.left p {
+  font-family: "Playfair Display", serif;
+  /* text-transform: capitalize; */
+  font-weight: 400;
+  padding: 15px 0px;
+  color: #626262;
+  word-spacing: 5px;
+  line-height: 1.5;
+}
+.right h4 {
+  /* padding: 50px 0px; */
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #77746d;
+}
+.right h1 {
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: 15px 0px;
+  color: #626262;
+}
+.right p {
+  font-family: "Playfair Display", serif;
+  /* text-transform: capitalize; */
+  font-weight: 400;
+  padding: 15px 0px;
+  color: #626262;
+  word-spacing: 5px;
+  line-height: 1.5;
+}
+
+/* post 2 */
+.p2 {
+  width: 100%;
+  float: left;
+  padding: 75px;
+}
+
+/* newsletter start  */
+.newsletter {
+  width: 100%;
+  background-color: #f0f0f0;
+  padding-bottom: 60px;
+}
+.signup {
+  padding: 75px;
+  text-align: center;
+}
+.signup h1 {
+  padding: 50px;
+  color: #333333;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+.signup input {
+  position: relative;
+  width: 400px;
+  padding: 15px 0px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+  color: #757575;
+  font-family: "Playfair Display", serif;
+}
+.signup input::placeholder {
+  font-family: "Playfair Display", serif;
+  /* color: red; */
+}
+.signup input:focus {
+  outline: none;
+}
+.signup i {
+  color: black;
+  position: absolute;
+  padding-top: 10px;
+  left: 861px;
+}
+
+.post3 {
+  width: 100%;
+  padding: 90px 0px;
+}
+/* .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+
+
+} */
+.learn {
+  width: 1140px;
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+  padding-bottom: 200px;
+}
+.learn button {
+  width: 200px;
+  padding: 20px 0px;
+  background-color: transparent;
+  font-family: "Playfair Display", serif;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: medium; /* font-size: 16px; */
+}
+.learn button:hover {
+  color: wheat;
+  background-color: black;
+}
+
+.footer {
+  width: 100%;
+  background-color: #f0f0f0;
+  float: left;
+  padding: 50px 0px;
+}
+.footer li {
+  display: inline-block;
+}
+.footer .left {
+  float: left;
+}
+.footer .right {
+  float: right;
+  text-align: right;
+}
+.footer .right li {
+  margin: 0px 20px;
+}
+.footer .left li {
+  margin: 0px 20px;
+}
+.footer li a {
+  color: #333333;
+  font-size: 17px;
+  font-weight: 600;
+
+  font-family: "Playfair Display", serif;
+}
